@@ -2,7 +2,7 @@ var friends =  [
 
 {
 name: "Bob Fossil",
-photo: "../media/bobfossil.png",
+photo: "https://github.com/ashleyallphin/FriendFinder/blob/master/media/bobfossil.png?raw=true",
 scores: [
     "4",
     "1",
@@ -19,7 +19,7 @@ scores: [
 
 {
 name: "Bollo",
-photo: "../media/bollo.png",
+photo: "https://github.com/ashleyallphin/FriendFinder/blob/master/media/bollo.png?raw=true",
 scores: [
     "4",
     "3",
@@ -36,7 +36,7 @@ scores: [
 
 {
 name: "Howard Moon",
-photo: "../media/howard.png",
+photo: "https://github.com/ashleyallphin/FriendFinder/blob/master/media/howard.png?raw=true",
 scores: [
     "1",
     "1",
@@ -53,7 +53,7 @@ scores: [
 
 {
 name: "Naboo",
-photo: "../media/naboo.png",
+photo: "https://github.com/ashleyallphin/FriendFinder/blob/master/media/naboo.png?raw=true",
 scores: [
     "3",
     "3",
@@ -70,7 +70,7 @@ scores: [
 
 {
 name: "Old Gregg",
-photo: "../media/oldgregg.png",
+photo: "https://github.com/ashleyallphin/FriendFinder/blob/master/media/oldgregg.png?raw=true",
 scores: [
     "5",
     "2",
@@ -87,7 +87,7 @@ scores: [
 
 {
 name: "Vince Noir",
-photo: "../media/vince.png",
+photo: "https://github.com/ashleyallphin/FriendFinder/blob/master/media/vince.png?raw=true",
 scores: [
     "5",
     "5",

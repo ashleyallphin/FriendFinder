@@ -226,7 +226,7 @@
           }
         });
 
-        $(".chosen-select").each(function() {
+        $(".chosen-select-no-results").each(function() {
 
           if ($(this).val() === "") {
             isValid = false;
@@ -255,14 +255,14 @@
           ]
         };
 
-        // AJAX post the data to the friends API.
+        // add new friend to friends API list
         $.post("/api/friends", userData, function(data) {
 
-          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          // show the name and photo
           $("#match-name").text(data.name);
           $("#match-img").attr("src", data.photo);
 
-          // Show the modal with the best match
+          // reveal new best friend
           $("#results-modal").modal("toggle");
 
         });

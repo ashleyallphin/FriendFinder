@@ -5,11 +5,7 @@ module.exports = function(app) {
   // API GET request
   app.get('/api/friends', function(req, res){
     
-    console.log("route");
-
     res.json(friends);
-
-
 
   });
 

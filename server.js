@@ -7,11 +7,7 @@ var PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({extended: true}));
 
-app.use(express.json({ type: 'application/**json' }))
-
-app.use(express.raw({ type: 'application/vnd.custom-type '}))
-
-app.use(express.text({ type: 'text/html' }))
+app.use(express.json())
 
 //include API route
 require('./app/routing/apiRoutes.js')(app);

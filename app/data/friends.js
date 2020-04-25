@@ -102,6 +102,6 @@ scores: [
 ]
 }
 
-]
+];
 
 module.exports = friends;

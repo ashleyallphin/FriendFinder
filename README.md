@@ -1,11 +1,11 @@
 # FriendFinder
 UTA-VIRT-FSF-PT-01-2020-U-LOL Homework #13
-Heroku live URL: ***
+[Heroku live URL](https://friendfinder-codingbootcamp-13.herokuapp.com/)
 
 
 ### Overview
 
-This "FriendFinder" is basically a dating app for friends. This full-stack site takes in results from users' survey answers and compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+This "FriendFinder" is a friend matching app. This full-stack site takes in results from users' survey answers and compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
 
 

@@ -2,7 +2,7 @@ var friends =  [
 
 {
 name: "Bob Fossil",
-photo: "media/bobfossil.png",
+photo: "../media/bobfossil.png",
 scores: [
     "4",
     "1",
@@ -19,7 +19,7 @@ scores: [
 
 {
 name: "Bollo",
-photo: "media/bollo.png",
+photo: "../media/bollo.png",
 scores: [
     "4",
     "3",
@@ -36,7 +36,7 @@ scores: [
 
 {
 name: "Howard Moon",
-photo: "media/howard.png",
+photo: "../media/howard.png",
 scores: [
     "1",
     "1",
@@ -53,7 +53,7 @@ scores: [
 
 {
 name: "Naboo",
-photo: "media/naboo.png",
+photo: "../media/naboo.png",
 scores: [
     "3",
     "3",
@@ -70,7 +70,7 @@ scores: [
 
 {
 name: "Old Gregg",
-photo: "media/oldgregg.png",
+photo: "../media/oldgregg.png",
 scores: [
     "5",
     "2",
@@ -87,7 +87,7 @@ scores: [
 
 {
 name: "Vince Noir",
-photo: "media/vince.png",
+photo: "../media/vince.png",
 scores: [
     "5",
     "5",
@@ -104,4 +104,4 @@ scores: [
 
 ]
 
-module.export = friends;
+module.exports = friends;

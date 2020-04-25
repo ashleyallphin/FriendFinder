@@ -1,12 +1,12 @@
 # FriendFinder
 UTA-VIRT-FSF-PT-01-2020-U-LOL Homework #13
+
 [Heroku live URL](https://friendfinder-codingbootcamp-13.herokuapp.com/)
 
 
 ### Overview
 
-This "FriendFinder" is a friend matching app. This full-stack site takes in results from users' survey answers and compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
-
+This "FriendFinder" is a friend matching app. This full-stack site takes in results from users' survey answers and compares their answers with those from other users. The app will then display the name and picture of the friend with the best overall match.
 
 
 ### File Structure
@@ -38,14 +38,14 @@ This "FriendFinder" is a friend matching app. This full-stack site takes in resu
 3. `htmlRoutes.js` file includes two routes:
 
    * A GET Route to `/survey` which displays the survey page.
-   * A default, catch-all route that leads to `home.html` which displays the home page.
+   * A default, catch-all route that leads to `home.html`, which displays the home page.
 
 4. `apiRoutes.js` file contains two routes:
 
    * A GET route with the url `/api/friends`. This will be used to display a JSON of all possible friends.
-   * A POST routes `/api/friends`. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
+   * A POST route `/api/friends`. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
 
-5. Data is located inside of `app/data/friends.js` as an array of objects. Each of these objects should roughly follow the format below.
+5. Data is located inside of `app/data/friends.js` as an array of objects. Each of these objects follows the format below.
 
 ```json
 {
@@ -80,16 +80,11 @@ This "FriendFinder" is a friend matching app. This full-stack site takes in resu
    * The modal displays both the name and picture of the closest match.
 
 
+8. The user's data is pushed to the API as a new available friend.
+
+
 
 - - -
-
-### Hosting on Heroku
-
-Now that we have a backend to our applications, we use Heroku for hosting. Please note that while **Heroku is free**, it will request credit card information if you have more than 5 applications at a time or are adding a database.
-
-Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
-
-See the [Supplemental Heroku Deployment Guide](../../03-Supplemental/HerokuGuide.md) for in-detail deployment instructions.
 
 
 ## Technologies Used
